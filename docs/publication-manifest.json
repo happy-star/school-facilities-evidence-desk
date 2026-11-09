@@ -1,0 +1,66 @@
+{
+  "archiveSha256": "748b91ab1b327162bf26f23d5b872629a1115e9964b026f8a5766fb3dc95968c",
+  "archiveBytes": 159552,
+  "archiveTopDirectory": "school-facilities-evidence-desk",
+  "repository": "https://github.com/happy-star/school-facilities-evidence-desk",
+  "liveDemo": "http://140.82.0.23:8893/",
+  "liveDemoScheme": "http",
+  "publicReleaseLock": true,
+  "codeIdenticalToArchive": true,
+  "preservedPublicInitializer": {
+    "commit": "8b59d3ec3641b0b19555222c2d5666dc66e1f3b7",
+    "path": "README.md",
+    "note": "The repository already had one commit whose only file was the title line '# school-facilities-evidence-desk'. That commit stays in history. It was not force-updated."
+  },
+  "docsOnlyDifferences": [
+    {
+      "path": "README.md",
+      "kind": "modified",
+      "archiveSha256": "f7be90f7496be4f3ddc860bbdc40d3d34272c51ba294aba7db6fed7cf72d13b7",
+      "publishedSha256": "141b8a5838a7bced99a811f8c2cd1454e741f6a6953173b256452de3b9561609",
+      "change": "Replaced the unset-repository placeholder with the public GitHub URL and the verified live demo URL."
+    },
+    {
+      "path": "docs/DEMO.md",
+      "kind": "modified",
+      "archiveSha256": "2c965b90ad202f770bc715d32a661db03c81dde44d5f3e242e4c1cfb1436e31e",
+      "publishedSha256": "3114602527af5497bca69844fe36e3878b16342077a13ad2d5ef4adc5383137f",
+      "change": "Added the live demo URL and the public repository URL."
+    },
+    {
+      "path": "docs/DEPLOY.md",
+      "kind": "modified",
+      "archiveSha256": "07cc05039bd5753199fbbc9fa6a9080f3d6b08bca29d33faba97a770de94cde4",
+      "publishedSha256": "353221c340ee8d7a55778dc9a2cecc4cfe4ed3e92c1a99c2943db90855752f5d",
+      "change": "Recorded the verified live demo and stated that publishing this tree does not redeploy it or touch ports 8787 and 8891."
+    },
+    {
+      "path": "docs/RELEASE_CONTENTS.md",
+      "kind": "modified",
+      "archiveSha256": "31065613aba3badee91535528ca39a897a6d055ddd068caacada7ad4863ba817",
+      "publishedSha256": "4fd2672ae977ed67caaa0a3001a5479d4c54a083a6de15dc6f194f75e44052f6",
+      "change": "Pointed readers at this manifest for documentation differences."
+    },
+    {
+      "path": "docs/publication-manifest.json",
+      "kind": "added",
+      "change": "Records the archive identity and the documentation-only differences. This file was not in the archive."
+    }
+  ],
+  "localVerificationBeforePush": {
+    "githubActions": false,
+    "npmCi": "passed",
+    "eslint": "npx eslint src scripts tests --max-warnings 0 passed",
+    "vitest": "6 files, 51 tests, passed",
+    "nextBuild": "npm run build passed",
+    "tscAfterBuild": "npx tsc --noEmit --pretty false passed",
+    "importCli": "npm run import exited 1 before reading a file. tsx reported that top-level await is not supported for the CommonJS output format, so the refusal line in scripts/import-udise.ts did not run. No PDF was read."
+  },
+  "notImported": [
+    "another repository's commits, refs, or tags",
+    "PDF files",
+    "official extracts",
+    "environment keys",
+    "review notes or screenshots"
+  ]
+}

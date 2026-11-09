@@ -1,0 +1,9 @@
+.git
+node_modules
+.next
+uploads
+data
+*.pdf
+*.png
+tests
+docs/SUBMISSION_DRAFT.md

@@ -1,0 +1,13 @@
+# SYNTHETIC FIXTURE — NOT UDISE+ AND NOT GOVERNMENT DATA
+# Invented percentages. Do not load this file as an official extract.
+Table 8.8: Percentage of schools having functional girls toilets by Management, 2022-23
+All management Total KVS NVS Other Central Government State Government Government Aided Private Unaided Recognized Others
+(1) (2) (3) (4) (5) (6) (7) (9) (10) (11)
+India 11.1 22.2 10 10 10 10 40 10 10
+Andaman & Nicobar Islands 50 50 50 50 50 50 50 50 0
+Dadra & Nagar Haveli and
+100 100 100 100 0 100 100 100 0
+Daman & Diu
+Kerala 33 55.5 10 10 10 0 NA 12.5 0
+Source: UDISE+ 2022-23
+159
