@@ -1,3 +1,6 @@
 Third-party packages listed in package.json keep their own copyright and licence notices.
 This project's MIT licence does not relicense Next.js, React, Tailwind, Zod, the bundled fonts,
 or any other dependency, and it does not cover the UDISE+ 2022-23 booklet or official statistics.
+
+src/app/shadcn-tailwind.css is a copy of shadcn 4.23.0 dist/tailwind.css. The shadcn package states the MIT licence.
+This project's MIT licence does not relicense that copy. The shadcn CLI is not installed; the checked-in UI components are unchanged.
