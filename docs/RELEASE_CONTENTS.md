@@ -89,6 +89,7 @@ Bytes 12210
 - src/server/store.ts
 - src/server/synthetic-demo.ts
 - tests/baseline.test.ts
+- tests/dependency-compat.test.ts
 - tests/helpers/sentinel-fs-guard.cjs
 - tests/import-cli.test.ts
 - tests/parser.test.ts
