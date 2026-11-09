@@ -18,7 +18,7 @@ npm run dev
 
 Open http://127.0.0.1:43127 on the same machine. The data source starts on **Official import**, which stays empty. **Synthetic sample** is the explicit demo. The question path starts on the deterministic baseline. **Reviewed plan** is a separate opt-in and is a post-review edit, not unedited IDE output.
 
-PDF import and the official-file reader are compiled off in this tree. `npm run import` exits without reading a file.
+`npm run import` prints the hardcoded public-release refusal and exits before it opens a path or parses a PDF. The import and clear HTTP routes return that same refusal. The booklet parser stays in the tree and is not started by this command. The live demo linked above is the previously published container; this refusal fix is not deployed there.
 
 ## Docker
 

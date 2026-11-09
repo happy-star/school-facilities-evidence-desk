@@ -1,7 +1,9 @@
 # Public snapshot contents
 
 This directory is a source snapshot. Its public git history is only this repository's own commits.
-Application source matches the vetted archive. Documentation differences are listed in `docs/publication-manifest.json`.
+Public commit `d4d983051a55bd1219b0dcf2acc55cbc5e89b16a` matched the vetted archive except the documentation listed in `docs/publication-manifest.json`.
+`scripts/import-udise.ts` was later changed so `npm run import` prints the public-release refusal before any PDF path is opened. That change is not deployed to the live demo.
+Dependency triage is in `docs/DEPENDENCY_AUDIT.md`.
 The official booklet, bulk extracts, and official cell-value tests are not included.
 The string 93.2 appears only in refusal tests, as a number the planner must not echo. It is not a published statistic.
 Preserved IDE file: evidence/agentfoundry-ide-2026-11-09/query-plan.ts
@@ -21,6 +23,7 @@ Bytes 12210
 - docs/AGENTFOUNDRY.md
 - docs/DATA_NOTICE.md
 - docs/DEMO.md
+- docs/DEPENDENCY_AUDIT.md
 - docs/DEPLOY.md
 - docs/SECURITY.md
 - eslint.config.mjs
@@ -33,12 +36,14 @@ Bytes 12210
 - package-lock.json
 - package.json
 - scripts/import-udise.ts
+- scripts/loopback-regression.mjs
 - src/app/api/ask/route.ts
 - src/app/api/demo/synthetic/route.ts
 - src/app/api/import/clear/route.ts
 - src/app/api/import/route.ts
 - src/app/favicon.ico
 - src/app/globals.css
+- src/app/shadcn-tailwind.css
 - src/app/import/page.tsx
 - src/app/layout.tsx
 - src/app/method/page.tsx
@@ -84,6 +89,9 @@ Bytes 12210
 - src/server/store.ts
 - src/server/synthetic-demo.ts
 - tests/baseline.test.ts
+- tests/dependency-compat.test.ts
+- tests/helpers/sentinel-fs-guard.cjs
+- tests/import-cli.test.ts
 - tests/parser.test.ts
 - tests/query-plan.reviewed.test.ts
 - tests/reviewed-plan-integration.test.ts

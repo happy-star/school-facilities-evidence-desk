@@ -6,6 +6,7 @@
   "liveDemo": "http://140.82.0.23:8893/",
   "liveDemoScheme": "http",
   "publicReleaseLock": true,
+  "recordScope": "This file describes public commit d4d983051a55bd1219b0dcf2acc55cbc5e89b16a only. Later commits are not a claim that the live demo was rebuilt.",
   "codeIdenticalToArchive": true,
   "preservedPublicInitializer": {
     "commit": "8b59d3ec3641b0b19555222c2d5666dc66e1f3b7",
