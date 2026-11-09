@@ -30,4 +30,4 @@ Inside the container the process runs as the image's `node` user. A judge opens 
 
 No server was contacted while this source pack was built. The `127.0.0.1:8893` mapping above is a local recipe.
 
-The verified live demo is http://140.82.0.23:8893/ (HTTP, not HTTPS), from this same source. Repository: https://github.com/happy-star/school-facilities-evidence-desk. Publishing this tree does not redeploy that host. Ports 8787 and 8891 belong to other demos and stay untouched.
+The verified live demo is http://140.82.0.23:8893/ (HTTP, not HTTPS). That container still runs the published snapshot, archive SHA-256 `748b91ab1b327162bf26f23d5b872629a1115e9964b026f8a5766fb3dc95968c` (public commit `d4d983051a55bd1219b0dcf2acc55cbc5e89b16a`). Later source commits, including the CLI refusal fix, are not deployed there. Repository: https://github.com/happy-star/school-facilities-evidence-desk. This tree does not redeploy that host. Ports 8787 and 8891 belong to other demos and stay untouched.
